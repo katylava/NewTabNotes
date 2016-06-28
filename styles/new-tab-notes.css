@@ -1,7 +1,13 @@
 html, body {
+    font-family: Hack, monospace;
+    font-size: 14px;
 	margin: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.editor-preview, .editor-preview-side {
+    font-family: Roboto, Helvetica, sans-serif;
 }
 
 .editor-toolbar {
