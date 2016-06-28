@@ -6,6 +6,11 @@ html, body {
 	height: 100%;
 }
 
+blockquote {
+    border-left: 5px #999 solid;
+    padding-left: 1em;
+}
+
 .editor-preview, .editor-preview-side {
     font-family: Roboto, Helvetica, sans-serif;
 }

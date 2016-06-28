@@ -9,10 +9,14 @@ $(function() {
 		lineWrapping: true,
 		spellChecker: false,
 		initialValue: "Loading...",
-		parsingConfig: {
-			allowAtxHeaderWithoutSpace: true
-		},
-		status: false
+        status: false,
+        tabSize: 4,
+        toolbar: [
+            'bold', 'italic', 'strikethrough', 'code', 'quote', '|',
+            'unordered-list', 'ordered-list', '|',
+            'link', 'image', 'table', '|',
+            'side-by-side', 'guide'
+        ]
 	});
 
 	var saveFunc = function(key, content, callback) {
